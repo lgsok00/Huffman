@@ -44,8 +44,9 @@
 
 N개의 원소 개수를 이용하므로
 
+*시간복잡도 : log N x N = *O(NlogN)*
+
 
 ![허프만 시간복자도](https://user-images.githubusercontent.com/80369805/114535798-62fbfa00-9c8b-11eb-92bb-e6e41ee39f42.png)
 
-시간복잡도 : log N x N = *O(NlogN)*
 

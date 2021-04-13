@@ -29,8 +29,12 @@
 ### 노드(Node)
 : 허프만 트리(힙 구조)에 쓰이는 노드객체
 
-class Node
-{
+
+
+    class Node
+
+      {
+
     public int freq;
     public char text;
     public Node lNode;
@@ -41,14 +45,14 @@ class Node
         this.freq = freq;
         this.text = text;
         lNode = rNode = null;
+     }
     }
-}
 
 ### 힙(Heap)
 
-class Heap
-{
-    private ArrayList<Node> tree = new ArrayList<Node>(54);
+    class Heap
+    {
+      private ArrayList<Node> tree = new ArrayList<Node>(54);
 
     public Heap()
     {
@@ -68,7 +72,7 @@ class Heap
             child = parent;
             parent = child /2;
         }
-    }
+      }
 
     public boolean isEmpty()
     {
@@ -122,7 +126,7 @@ class Heap
                 System.out.print(n.freq+" ");
         System.out.println("");
     }
-}
+    }
 
 ### 허프만 트리
 

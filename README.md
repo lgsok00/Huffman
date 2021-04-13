@@ -17,10 +17,14 @@
   
   
   
+  
+  
+  
 
+![컴알 (2)](https://user-images.githubusercontent.com/80369805/114546059-b2482780-9c97-11eb-8375-53d47d2b06b2.png)
 
 *(1,2,3,4,5,6)의 빈도수를 가진 요소들의 허프만 트리 과정*
-![Com al](https://user-images.githubusercontent.com/80369805/114534955-7e1a3a00-9c8a-11eb-898a-21d63dc7fac8.jpg)
+
 
 ## 방법
 

@@ -30,6 +30,18 @@
 
 
 
+
+## 실행결과
+
+### 입력
+
+![컴알 입력](https://user-images.githubusercontent.com/80369805/114552603-bc6e2400-9c9f-11eb-99ce-3906985e8470.png)
+
+### 결과
+
+![컴알 결과](https://user-images.githubusercontent.com/80369805/114552635-c55ef580-9c9f-11eb-931f-e6021f7a0514.png)
+
+
 ## 허프만 트리 제작의 시간 복잡도
 최소 값 추출에 걸리는 시간 : log N
 

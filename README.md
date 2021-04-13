@@ -30,7 +30,7 @@
 : 허프만 트리(힙 구조)에 쓰이는 노드객체
 
 
-
+```java
     class Node
 
       {
@@ -47,9 +47,9 @@
         lNode = rNode = null;
      }
     }
-
+```
 ### 힙(Heap)
-
+```java
     class Heap
     {
       private ArrayList<Node> tree = new ArrayList<Node>(54);
@@ -127,9 +127,9 @@
         System.out.println("");
     }
     }
-
+```
 ### 허프만 트리
-
+```java
     public class HuffmanCoding
     {
       public static HashMap<Character, Integer> freq = new HashMap<Character, Integer>();
@@ -227,7 +227,7 @@
         printTextCode(huffmanCoding, arr, 0);
        }
     }
-
+```
 ## 실행결과
 
 ### 입력

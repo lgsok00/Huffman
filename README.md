@@ -130,25 +130,25 @@
 
 ### 허프만 트리
 
-public class HuffmanCoding
-{
-    public static HashMap<Character, Integer> freq = new HashMap<Character, Integer>();
-    public static Node huffmanCoding=null;
-
-    public static void countText(String src)
+    public class HuffmanCoding
     {
-        try {
-            BufferedReader in = new BufferedReader(new FileReader(src));
-            String s;
+      public static HashMap<Character, Integer> freq = new HashMap<Character, Integer>();
+      public static Node huffmanCoding=null;
 
-            while ((s = in.readLine()) != null)
-            {
-                for(int i=0;i<s.length();i++)
-                {
-                    char c = s.charAt(i);
-                    if(freq.containsKey(c)) freq.put(c, freq.get(c)+1);
-                    else freq.put(c, 1);
-                }
+      public static void countText(String src)
+      {
+          try {
+              BufferedReader in = new BufferedReader(new FileReader(src));
+              String s;
+
+             while ((s = in.readLine()) != null)
+             {
+                  for(int i=0;i<s.length();i++)
+                 {
+                      char c = s.charAt(i);
+                      if(freq.containsKey(c)) freq.put(c, freq.get(c)+1);
+                      else freq.put(c, 1);
+                  }
             }
             in.close();
         }
@@ -225,8 +225,8 @@ public class HuffmanCoding
 
         System.out.println("각 문자에 할당된 코드 -------- ");
         printTextCode(huffmanCoding, arr, 0);
+       }
     }
-}
 
 ## 실행결과
 
@@ -241,6 +241,7 @@ public class HuffmanCoding
 
 ## 허프만 트리 제작의 시간 복잡도
 1.최소 값 추출에 걸리는 시간 : log N
+
 2.원소의 개수 : N
 
 *시간복잡도 : log N x N = *O(NlogN)*
